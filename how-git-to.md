@@ -22,7 +22,7 @@
 
 ```
 > Enter passphrase (empty for no passphrase): [Press enter]
->Enter same passphrase again: [Press enter]
+> Enter same passphrase again: [Press enter]
 ```
 
 # Как добавить ключ в аккаунт на GitHub
