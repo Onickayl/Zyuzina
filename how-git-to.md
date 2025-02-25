@@ -3,7 +3,7 @@
 1. Откройте Терминал. Вставьте в него следующий код, подставив в кавычки свой адрес электронной почты на GitHub.
 
 ```
-> ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 2. Эта команда создает новый ключ SSH, используя введенный адрес электронной почты.
@@ -22,7 +22,7 @@
 
 ```
 > Enter passphrase (empty for no passphrase): [Press enter]
->Enter same passphrase again: [Press enter]
+> Enter same passphrase again: [Press enter]
 ```
 
 # Как добавить ключ в аккаунт на GitHub
@@ -44,7 +44,7 @@
 1. Для того чтобы клонировать репозиторий на рабочий компьютер, нажмите на зелёную кнопку "Code" и выберите "SSH", скопируйте ссылку. Введите в терминале:
 
 ```
-> git clone git@github.com:username/repository.git
+git clone git@github.com:username/repository.git
 ```
 
 2. Теперь Вы можете найти этот репозиторий в своём проводнике и открыть его.
